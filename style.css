@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    
+}
+
+nav{
+    
+    width: 100%;
+    padding: 20px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navleft h2{
+    color: #000;
+    line-height: 50px;
+    border-bottom: 2px solid #9B4819;
+    
+}
+
+
+
+nav .button{
+    font-weight: 600;
+    padding: 15px 18px;
+    border-radius: 50px;
+    border: none;
+    background-color: #5271ff;
+    color: #f4f1e8;
+}
+
+.form{
+   width: 320px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.form-text{
+    line-height: 100px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 5px 5px 0 0;
+}
+
+.form .info{
+    padding: 30px 20px 25px 20px;
+}
+
+.info .form-section{
+    height: 45px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.form-section input{
+    width: 100%;
+    height: 100%;
+    outline: nones;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 50px;
+    border: 1px solid black;
+    padding-left: 15px;
+}
+
+
+.info .button input{
+    color: #fff;
+    background-color: #5271ff;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.btn{
+    text-align: center;
+    
+}
+.btn button{
+    
+    font-weight: 600;
+    padding: 15px 18px;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: black;
+}
+
+
+
+
